@@ -2,9 +2,9 @@
 # languageCode = "en-us"
 # title = "My New Hugo Site"
 
-baseurl = "/"
+baseurl = "https://strawstar.github.io/Moira/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "Moira"
 theme = "future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -19,52 +19,68 @@ canonifyURLs = true
   # Sets the meta tag description
   description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Future Imperfect"
+  navbarTitle          = "Moira"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
+  # 设置navbarTitle以匹配网站的部分
   dynamicTitles        = true
-  # Sets RSS icons to appear on the sidebar with the social media buttons
-  rssAppearAtTop       = true
-  rssAppearAtBottom    = true
   # Sets Social Media icons to appear on the sidebar
+  # 将社交媒体图标设置为显示在侧栏上
   socialAppearAtTop    = true
   socialAppearAtBottom = true
-  # Sets Categories to sort by number of posts instead of alphabetical
-  categoriesByCount    = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  # 将RSS图标设置为使用社交媒体按钮显示在侧栏上
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
   # set to show or to hide categories in the sidebar
+  # 设置为显示或隐藏侧栏中的类别
   showSidebarCategories = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  # 设置类别按帖子数而不是按字母顺序排序
+  categoriesByCount    = true
   # Sets Estimated Reading Time to appear in post headers
+  # 设置要在帖子标题中显示的估计阅读时间
   includeReadingTime   = true
   # Sets the Favicon and Version for the site. Default support is for
   # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
   # These are stored in the favicon folder. See the following for more information:
   # https://github.com/audreyr/favicon-cheat-sheet
+  # 设置站点的Favicon和版本。默认支持是
+  # apple-touch-icon-precomposed.png，favicon.png，favicon.ico和mstile.png
+  # 这些存储在favicon文件夹中。有关更多信息，请参阅以下内容
+  # https://github.com/audreyr/favicon-cheat-sheet
   loadFavicon          = false
   faviconVersion       = ""
   # Sets Social Share links to appear on posts
-  socialShare          = true
+  # 设置社交共享链接以显示在帖子上
+  socialShare          = false
   # Sets specific share to appear on posts (default behavior is to appear)
-  socialShareTwitter   = true
-  socialShareGoogleplus = true
-  socialShareFacebook  = true
-  socialShareReddit    = true
-  socialShareLinkedin  = true
-  socialShareStumbleupon = true
-  socialSharePinterest = true
-  socialShareEmail     = true
+  # 设置要在帖子上显示的特定共享（将显示默认行为）
+  socialShareTwitter      = true
+  socialShareGoogleplus   = true
+  socialShareFacebook     = true
+  socialShareReddit       = true
+  socialShareLinkedin     = true
+  socialShareStumbleupon  = true
+  socialSharePinterest    = true
+  socialShareEmail        = true
 
   # Load custom CSS or JavaScript files. The variable is an array so that you
   # can load multiple files if necessary. You can also load the standard theme
   # files by adding the value, "default".
   # customCSS            = ["default", "/path/to/file"]
   # customJS             = ["default", "/path/to/file"]
+  # 加载自定义CSS或JavaScript文件。变量是一个数组，所以你
+  # 如有必要，可以加载多个文件。您还可以加载标准主题
+  # 文件通过添加值“默认”
   customCSS            = ["default"]
   customJS             = ["default"]
 
   # options for highlight.js (version, additional languages, and theme)
+  # highlight.js的选项（版本，附加语言和主题）
   disable_highlight = false # set to true to disable Highlight
   highlightjsVersion = "9.11.0"
   highlightjsCDN = "//cdn.bootcss.com"
@@ -76,41 +92,51 @@ canonifyURLs = true
 # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
 # due to its ease of use. Feel free to check out both and decide what you would
 # prefer to use. See Staticman.yml for additional settings.
+# Disqus将优先于Staticman（github.com/eduardoboucas/staticman）
+# 由于其易用性。随意检查两者并决定你会做什么
+# 更喜欢使用。有关其他设置，请参阅Staticman.yml。
 [params.staticman]
   # Sets Statiman to be active
+  # 将Statiman设置为活动状态
   staticman = false
   # Sets the location for Staticman to connect to
+  # 设置Staticman连接的位置
   username  = ""
   repo      = ""
   branch    = ""
 
-  [params.staticman.recaptcha]
-    sitekey = "SITE_KEY"
-    secret  = "ENCRYPTED_SECRET"
+[params.staticman.recaptcha]
+  sitekey = "SITE_KEY"
+  secret  = "ENCRYPTED_SECRET"
 
-  # These are optional params related to the sidebar. They are recommended, but not
-  # required for proper functionality. HTML is supported within the params.
+# These are optional params related to the sidebar. They are recommended, but not
+# required for proper functionality. HTML is supported within the params.
+# 这些是与侧边栏相关的可选参数。建议使用它们，但不是
+# 正常功能所需。参数范围内支持HTML。
 [params.intro]
-  header    = "Hugo Future Imperfect"
+  header    = "Moira"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "<i class='fa fa-hand-peace-o'></i>"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "This is about."
 
-  # This appears at the top of the sidebar above params.intro.header.
-  # A width of less than 100px is recommended from a design perspective.
-  [params.intro.pic]
-    src       = "/img/main/logo.jpg"
-    # Sets Image to be a cirlce
-    circle    = false
-    # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
-    width     = ""
-    alt       = "Hugo Future Imperfect"
+# This appears at the top of the sidebar above params.intro.header.
+# A width of less than 100px is recommended from a design perspective.
+# 这显示在params.intro.header上方侧栏的顶部。
+# 从设计角度来看，建议宽度小于100px。
+[params.intro.pic]
+  src       = "/img/main/logo.jpg"
+  # Sets Image to be a cirlce
+  circle    = false
+  # Sets Image to be Future Imperfect's hexagon
+  imperfect = true
+  width     = ""
+  alt       = "Hugo Future Imperfect"
 
-[params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 5
+# 设置侧栏中显示的最近帖子数。默认值为5。
+[params.postAmount]
+  sidebar = 5
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
@@ -133,26 +159,29 @@ canonifyURLs = true
   weight = 3
 
 [[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
+  #name = "Itemized" # 分项
+  #url = "/itemized/"
+  #identifier = "fa fa-list"
+  #weight = 4
 
 [[menu.main]]
-  name = "Categories"
+  name = "Categories" # 分类
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
 
 [[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  identifier = "fa fa-envelope-o"
-  weight = 6
+  #name = "Contact"
+  #url = "/contact/"
+  #identifier = "fa fa-envelope-o"
+  #weight = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
+# 设置要显示的社交媒体图标并链接到您的帐户。价值应该是你的
+# username除非另有说明。这些是受socialAppearAtTop影响的图标
+# 和socialAppearAtBottom。
 [social]
   # Coding Communities
   github           = "jpescador/hugo-future-imperfect"
