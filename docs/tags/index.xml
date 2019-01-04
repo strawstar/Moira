@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo Future Imperfect</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Hugo Future Imperfect</description>
+    <title>Tags on Moira</title>
+    <link>https://strawstar.github.io/Moira/tags/</link>
+    <description>Recent content in Tags on Moira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawstar.github.io/Moira/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>tutorial</title>
-      <link>/tags/tutorial/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Life</title>
+      <link>https://strawstar.github.io/Moira/tags/life/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tutorial/</guid>
+      <guid>https://strawstar.github.io/Moira/tags/life/</guid>
       <description></description>
     </item>
     

@@ -1,67 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Hugo Future Imperfect</title>
-    <link>/blog/</link>
-    <description>Recent content in Blog on Hugo Future Imperfect</description>
+    <title>Blog on Moira</title>
+    <link>https://strawstar.github.io/Moira/blog/</link>
+    <description>Recent content in Blog on Moira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawstar.github.io/Moira/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>/blog/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>/blog/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>01</title>
+      <link>https://strawstar.github.io/Moira/blog/2019-01/01/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>/blog/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/hugoisforlovers/</guid>
-      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+      <guid>https://strawstar.github.io/Moira/blog/2019-01/01/</guid>
+      <description>仿佛昨天还是绿树成荫的光景 一转眼 就到了北风呼啸的冬季 2019年的第一个月 1月就这样如期而来 回望那已经过去的一年，我们究竟是活了365天；还是活了1天，重复了364遍？
+ 
+01
+年纪轻轻时，不要谈什么岁月静好，当下你要努力去争取你想要的。最能让人感到快乐的事，莫过于经过一番努力后，所有东西正慢慢变成你想要的样子。
+当然，也会有很多事情令人无能为力，比如生老病死，比如时光流逝，比如“我爱你”
+这过去的十一个月里，可能有人嫌弃你的体重，有人介意你的容貌，有人害怕你的无理取闹，有人受不了你的脾气，有人嫉妒你太优秀也有人看清你不把你当回事儿。尽管如此，总有一个人正在接受并习惯着你的这些，他没走，一直都在陪着你
+时间是个好东西。只有日子久了，你才会明白哪些人值得用生命去珍惜，而一些人只适合绕道而行。
+与此同时，我们才更加确定我们只是想找一个谈得来、合脾性，在一起舒坦、分开久了有点想念，安静久了想闹腾一下、吵架了又立马会后悔认输的人。爱情如此，友情同理。
+跟谁呆在一起舒服就跟谁呆在一起，谁离开我都不挽留；对任何不喜欢的都要善良的说：再见，不远送。
 
-&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
-appropriate version for your os and architecture.&lt;/p&gt;
+02
+据说，时间的步伐有三种：
+未来姗姗来迟，
+现在像箭一般飞逝，
+过去永远静立不动。
+所以，千万不要总在过去的回忆里缠绵，昨天的太阳，晒不干今天的衣裳。
+时间并不会帮我们解决什么问题，它只是把原来怎么也想不通的问题，变得不再重要了。
+过去的，就让它过去吧。当下最重要的是，你接下来该如何继续。
 
-&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+03
+新的一年，新的开始。
+愿你除了学会怎么去爱人，
+更懂得如何取悦自己。
+有时，挺佩服曾经的自己，能咽下一肚子的话和心酸，只说一个“嗯”。接下来的一个月，接下来的人生里，请不要再委屈自己。
+那些不喜欢的，就礼貌地拒绝，尽量不要说谎，也不必勉强自己。人这一生时间有限，强迫自己久了，反而会忘记去主动争取自己的所想。
+收回羡慕别人的目光，感受自己的内心。自己喜欢的东西就不要问别人好不好看；自己喜欢的日子，就是最美的日子，适合自己的活法，就是最好的活法。
+每天都要努力工作、生活，不为别的，只为了日后能够多一些选择，选择淡看云卷云舒的小日子，选择自己喜欢的人，自己想要的东西，要么奋力直追，要么干脆放弃。别总是逢人就喋喋不休的表决心或者哀怨不断，做别人茶余饭后的笑点。
+一只站在树上的鸟儿，从来不会害怕树枝断裂，因为它相信的不是树枝，而是它自己的翅膀。与其每天担心未来，不如把握现在。人这一辈子，只有奋斗才能给自己最大的安全感。
+每个优秀的人，都有一段沉默的时光。那一段时光，是付出了很多努力，忍受孤独和寂寞，不抱怨不诉苦，日后说起时，连自己都能被感动的日子。
+我们花很长的时间，走很远的路，最终成为自己。就像时间总是喜欢把对你最好的人留到最后一样。
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>/blog/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/migrate-from-jekyll/</guid>
-      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+04
+有人说：
+一个人活了多少岁不算什么，
+重要的是他是如何度过这些岁月的！
+所有的经历，不管好坏，只要我们真心实意地对待，都会变成我们生命中的最美时光。记得珍惜你现在的时光，因为只有你珍惜，积极努力地对它们，它们才能变成你最美的时光。一串又一串的最美时光汇聚在一起，就是一个幸福的人生。
+人生最好的状态就是：
+随遇而安、遇事不急不躁，该有主心骨的时候能镇得住场，不该有的时候能心安理得躲一旁不多话；
+会爱人，会关心人，会牵挂人，但不缠人；
+有思想，有理想，有理性，很幽默，敢自嘲；
+会为爱的人甘于放下身段，有学习的热情和动力，每天都在进步，但不再期待别人的夸奖。
 
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;</description>
+2019年
+你准备好了吗？</description>
     </item>
     
   </channel>
